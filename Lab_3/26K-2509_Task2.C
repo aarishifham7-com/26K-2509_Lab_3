@@ -2,8 +2,8 @@
 
 int main(){
 
-int Number_1 = 0;
-int Number_2 = 0;
+int Number_1;
+int Number_2;
 
 printf("Enter the first number: ");
 scanf("%d", &Number_1);
