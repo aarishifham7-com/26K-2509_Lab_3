@@ -1,22 +1,22 @@
 #include<stdio.h>
 int main(){
 
-    char pn[10] ="";
-    int qu = 0;
-    float p = 0.0f;
+    char Prname[10] = "";
+    int Quantity;
+    float price;
 
-    printf("What is the name of the product? : ");
-    scanf("%s", &pn);
+    printf("name of the product? : ");
+    scanf("%s", &Prname);
 
     printf("How many do you want to buy? : ");
-    scanf("%d", &qu);
+    scanf("%d", &Quantity);
 
-    printf("What is the price of each? : ");
-    scanf("%f", &p);
+    printf("What is the price? : ");
+    scanf("%f", &price);
 
-    printf("Product Name: ""%s\n", pn);
-    printf("Product Quantity: ""%d\n", qu);
-    printf("Price: ""%.2f", p);
+    printf("Product Name: ""%s\n", Prname);
+    printf("Product Quantity: ""%d\n", Quantity);
+    printf("Price: ""%.2f", price);
 
     return 0;
 
